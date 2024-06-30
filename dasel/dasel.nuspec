@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dasel</id>
+    <version>2.8.1</version>
+    <owners>Mainians</owners>
+    <title>dasel</title>
+    <authors>dasel Author</authors>
+    <projectUrl>https://daseldocs.tomwright.me/</projectUrl>
+    <iconUrl>https://github.com/TomWright.png</iconUrl>
+    <copyright>Copyright (c) 2020 Tom Wright</copyright>
+    <licenseUrl>https://github.com/TomWright/dasel/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/TomWright/dasel</projectSourceUrl>
+    <docsUrl>https://daseldocs.tomwright.me/</docsUrl>
+    <mailingListUrl>https://github.com/TomWright</mailingListUrl>
+    <bugTrackerUrl>https://github.com/TomWright/dasel/issues</bugTrackerUrl>
+    <tags>dasel jq yq</tags>
+    <summary>Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.</summary>
+    <description>Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.</description>
+    <releaseNotes>https://github.com/TomWright/dasel/blob/master/CHANGELOG.md</releaseNotes>
+    <packageSourceUrl>https://github.com/mainians/Choco-dasel</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
